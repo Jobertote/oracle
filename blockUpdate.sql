@@ -21,7 +21,7 @@ BEGIN
       Raise leException;
     End If;          
 
-
+  --Confirmacion de los cambios 
    Commit;
 EXCEPTION
    WHEN leException THEN
